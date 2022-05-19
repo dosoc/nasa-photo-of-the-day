@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 function Details(props) {
+    const {details, hide} = props
     return (
         <div className='container'>
-            <h3>{props.photo.date}</h3>
-            <p>{props.photo.explanation}</p>
-            <button>Show Explanation
-            </button>
+            <p>{details.explanation}</p>
+            <p>Copyright: {details.copyright}</p>
+            <button onClick={hide}>Hide Explanation</button>
         </div>
     )
 }

@@ -46,10 +46,14 @@ img {
 .container{
   display: flex;
   flex-direction: column;
+  align-items: center;
   border: 1px solid black;
   box-shadow: 1px 1px 4px black;
   margin: 2%;
   padding: 2%;
   border-radius: 20px;
   background-color: white;
+}
+button {
+  margin: 20px;
 }
