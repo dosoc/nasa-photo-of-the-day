@@ -16,7 +16,7 @@ const StyledCard = styled.div`
 const StyledPhoto = styled.img`
     transition: 0.5s ease-in-out;
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
         
     }
 `;
